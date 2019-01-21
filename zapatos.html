@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Zapatos - Productos</title>
+	<!-- Ponemos el icono -->
+	<link rel="shortcut icon" type="img/ico" href="img/icono.ico">
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!-- Nuestras Fuentes: -->
+	<link href="https://fonts.googleapis.com/css?family=Bevan|Sigmar+One|Roboto" rel="stylesheet">
+	<!-- Nuestros CSS: -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<!-- Inicia el navbar: Mobile Collapse Button -->
+	<nav>
+		<!-- Cambiamos color de navbar: blue-grey-->
+		<div class="nav-wrapper blue-grey lighten-4">
+			<!-- Ponemos LOGO con ID en navbar: -->
+			<a href="index.html" class="brand-logo"><img class="logo_img" src="img/logo.png" alt="Logo"></a>
+			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			<!-- Cambiamos letra con la clase: bevan -->
+			<ul class="right hide-on-med-and-down bevan">
+				<!-- Cambiamos links y menú de navegación. PONER ACTIVE -->
+				<li><a href="index.html">Inicio</a></li>
+				<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Departamentos<i class="material-icons right">arrow_drop_down</i></a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Dropdown Structure de NAVBAR-->
+	<ul id="dropdown1" class="dropdown-content">
+		<!-- Ponemos clase ACTIVE -->
+	  <li><a href="ella.html">Ella</a></li>
+	  <li class="active"><a href="#!">Zapatos</a></li>
+	  <li><a href="ninos.html">Bebés y Niños</a></li>
+	  <li><a href="deportes.html">Deportes</a></li>
+	  <li><a href="#!">Cómputo y Electrónica</a></li>
+	  <li><a href="#!">Relojes y Lentes</a></li>
+	</ul>
+
+	<!-- Side-Navbar -->
+	<!-- Cambiamos letra con la clase: bevan -->
+	<ul class="sidenav bevan" id="mobile-demo">
+		<!-- Ponemos logo centrado en el sidenav -->
+		<center><img class="logo_img" src="img/logo.png" alt="Logo"></center>
+		<!-- Cambiamos links y menú de navegación. PONER ACTIVE -->
+		<li><a href="index.html">Inicio</a></li>
+		<li class="active"><a class="dropdown-trigger" href="#!" data-target="dropdown2">Departamentos<i class="material-icons right">arrow_drop_down</i></a></li>
+		<li><a href="contacto.html">Contacto</a></li>
+	</ul>
+
+	<!-- Dropdown Structure de SIDE-NAVBAR-->
+	<ul id="dropdown2" class="dropdown-content">
+	  <li><a href="ella.html">Ella</a></li>
+	  <li class="active"><a href="#!">Zapatos</a></li>
+	  <li><a href="ninos.html">Bebés y Niños</a></li>
+	  <li><a href="deportes.html">Deportes</a></li>
+	  <li><a href="#!">Cómputo y Electrónica</a></li>
+	  <li><a href="#!">Relojes y Lentes</a></li>
+	</ul>
+	<!-- Termina el navbar -->
+
+	<main>
+		
+		<div class="container">
+			
+			<h3>Hombre</h3>
+			<br>
+			<div class="row">
+				
+				<div class="col s12 m6 l4">
+					<!-- Inicia CARD (ponemos clase: HOVERABLE) -->
+					<div class="card hoverable">
+					    <div class="card-image waves-effect waves-block waves-light">
+					    	<!-- Cambiamos IMÁGENES -->
+					      <img class="activator" src="img/zapatos/hombre/hombre1.jpg">
+					    </div>
+					    <div class="card-content">
+					    	<!-- Cambiamos TÍTULO de card -->
+					      <span class="card-title activator grey-text text-darken-4">Artículo 1<i class="material-icons right">more_vert</i></span>
+					      <!-- Cambiamos LINK por PRECIO -->
+					      <p><a href="#">$500.00 - COMPRAR</a></p>
+					    </div>
+					    <div class="card-reveal">
+					    	<!-- Ponemos DESCRIPCIÓN -->
+					      <span class="card-title grey-text text-darken-4">Descripción<i class="material-icons right">close</i></span>
+					      <!-- Ponemos un LOREM20 -->
+					      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe beatae officia minus. Ea mollitia ipsa, perspiciatis ut alias dolore ullam.</p>
+					    </div>
+					  </div>
+					<!-- Termina CARD -->
+				</div>
+
+				<div class="col s12 m6 l4">
+					<!-- Inicia CARD (ponemos clase: HOVERABLE) -->
+					<div class="card hoverable">
+					    <div class="card-image waves-effect waves-block waves-light">
+					    	<!-- Cambiamos IMÁGENES -->
+					      <img class="activator" src="img/zapatos/hombre/hombre2.jpg">
+					    </div>
+					    <div class="card-content">
+					    	<!-- Cambiamos TÍTULO de card -->
+					      <span class="card-title activator grey-text text-darken-4">Artículo 2<i class="material-icons right">more_vert</i></span>
+					      <!-- Cambiamos LINK por PRECIO -->
+					      <p><a href="#">$500.00 - COMPRAR</a></p>
+					    </div>
+					    <div class="card-reveal">
+					    	<!-- Ponemos DESCRIPCIÓN -->
+					      <span class="card-title grey-text text-darken-4">Descripción<i class="material-icons right">close</i></span>
+					      <!-- Ponemos un LOREM20 -->
+					      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe beatae officia minus. Ea mollitia ipsa, perspiciatis ut alias dolore ullam.</p>
+					    </div>
+					  </div>
+					<!-- Termina CARD -->
+				</div>
+
+				<div class="col s12 m6 l4">
+					<!-- Inicia CARD (ponemos clase: HOVERABLE) -->
+					<div class="card hoverable">
+					    <div class="card-image waves-effect waves-block waves-light">
+					    	<!-- Cambiamos IMÁGENES -->
+					      <img class="activator" src="img/zapatos/hombre/hombre3.jpg">
+					    </div>
+					    <div class="card-content">
+					    	<!-- Cambiamos TÍTULO de card -->
+					      <span class="card-title activator grey-text text-darken-4">Artículo 3<i class="material-icons right">more_vert</i></span>
+					      <!-- Cambiamos LINK por PRECIO -->
+					      <p><a href="#">$500.00 - COMPRAR</a></p>
+					    </div>
+					    <div class="card-reveal">
+					    	<!-- Ponemos DESCRIPCIÓN -->
+					      <span class="card-title grey-text text-darken-4">Descripción<i class="material-icons right">close</i></span>
+					      <!-- Ponemos un LOREM20 -->
+					      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe beatae officia minus. Ea mollitia ipsa, perspiciatis ut alias dolore ullam.</p>
+					    </div>
+					  </div>
+					<!-- Termina CARD -->
+				</div>
+
+				<div class="col s12 m6 l4">
+					<!-- Inicia CARD (ponemos clase: HOVERABLE) -->
+					<div class="card hoverable">
+					    <div class="card-image waves-effect waves-block waves-light">
+					    	<!-- Cambiamos IMÁGENES -->
+					      <img class="activator" src="img/zapatos/hombre/hombre4.jpg">
+					    </div>
+					    <div class="card-content">
+					    	<!-- Cambiamos TÍTULO de card -->
+					      <span class="card-title activator grey-text text-darken-4">Artículo 4<i class="material-icons right">more_vert</i></span>
+					      <!-- Cambiamos LINK por PRECIO -->
+					      <p><a href="#">$500.00 - COMPRAR</a></p>
+					    </div>
+					    <div class="card-reveal">
+					    	<!-- Ponemos DESCRIPCIÓN -->
+					      <span class="card-title grey-text text-darken-4">Descripción<i class="material-icons right">close</i></span>
+					      <!-- Ponemos un LOREM20 -->
+					      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe beatae officia minus. Ea mollitia ipsa, perspiciatis ut alias dolore ullam.</p>
+					    </div>
+					  </div>
+					<!-- Termina CARD -->
+				</div>
+
+				<div class="col s12 m6 l4">
+					<!-- Inicia CARD (ponemos clase: HOVERABLE) -->
+					<div class="card hoverable">
+					    <div class="card-image waves-effect waves-block waves-light">
+					    	<!-- Cambiamos IMÁGENES -->
+					      <img class="activator" src="img/zapatos/hombre/hombre5.jpg">
+					    </div>
+					    <div class="card-content">
+					    	<!-- Cambiamos TÍTULO de card -->
+					      <span class="card-title activator grey-text text-darken-4">Artículo 5<i class="material-icons right">more_vert</i></span>
+					      <!-- Cambiamos LINK por PRECIO -->
+					      <p><a href="#">$500.00 - COMPRAR</a></p>
+					    </div>
+					    <div class="card-reveal">
+					    	<!-- Ponemos DESCRIPCIÓN -->
+					      <span class="card-title grey-text text-darken-4">Descripción<i class="material-icons right">close</i></span>
+					      <!-- Ponemos un LOREM20 -->
+					      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe beatae officia minus. Ea mollitia ipsa, perspiciatis ut alias dolore ullam.</p>
+					    </div>
+					  </div>
+					<!-- Termina CARD -->
+				</div>
+
+				<div class="col s12 m6 l4">
+					<!-- Inicia CARD (ponemos clase: HOVERABLE) -->
+					<div class="card hoverable">
+					    <div class="card-image waves-effect waves-block waves-light">
+					    	<!-- Cambiamos IMÁGENES -->
+					      <img class="activator" src="img/zapatos/hombre/hombre6.jpg">
+					    </div>
+					    <div class="card-content">
+					    	<!-- Cambiamos TÍTULO de card -->
+					      <span class="card-title activator grey-text text-darken-4">Artículo 6<i class="material-icons right">more_vert</i></span>
+					      <!-- Cambiamos LINK por PRECIO -->
+					      <p><a href="#">$500.00 - COMPRAR</a></p>
+					    </div>
+					    <div class="card-reveal">
+					    	<!-- Ponemos DESCRIPCIÓN -->
+					      <span class="card-title grey-text text-darken-4">Descripción<i class="material-icons right">close</i></span>
+					      <!-- Ponemos un LOREM20 -->
+					      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe beatae officia minus. Ea mollitia ipsa, perspiciatis ut alias dolore ullam.</p>
+					    </div>
+					  </div>
+					<!-- Termina CARD -->
+				</div>
+
+			</div>
+
+			<hr> <!--Ponemos HR para DIVIDIR sección-->
+
+			<h3>Mujer</h3>
+			<br>
+			<div class="row">
+				
+				<div class="col s12 m6 l4">
+					<!-- Inicia CARD (ponemos clase: HOVERABLE) -->
+					<div class="card hoverable">
+					    <div class="card-image waves-effect waves-block waves-light">
+					    	<!-- Cambiamos IMÁGENES -->
+					      <img class="activator" src="img/zapatos/mujer/mujer1.jpg">
+					    </div>
+					    <div class="card-content">
+					    	<!-- Cambiamos TÍTULO de card -->
+					      <span class="card-title activator grey-text text-darken-4">Artículo 1<i class="material-icons right">more_vert</i></span>
+					      <!-- Cambiamos LINK por PRECIO -->
+					      <p><a href="#">$500.00 - COMPRAR</a></p>
+					    </div>
+					    <div class="card-reveal">
+					    	<!-- Ponemos DESCRIPCIÓN -->
+					      <span class="card-title grey-text text-darken-4">Descripción<i class="material-icons right">close</i></span>
+					      <!-- Ponemos un LOREM20 -->
+					      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe beatae officia minus. Ea mollitia ipsa, perspiciatis ut alias dolore ullam.</p>
+					    </div>
+					  </div>
+					<!-- Termina CARD -->
+				</div>
+
+				<div class="col s12 m6 l4">
+					<!-- Inicia CARD (ponemos clase: HOVERABLE) -->
+					<div class="card hoverable">
+					    <div class="card-image waves-effect waves-block waves-light">
+					    	<!-- Cambiamos IMÁGENES -->
+					      <img class="activator" src="img/zapatos/mujer/mujer2.jpg">
+					    </div>
+					    <div class="card-content">
+					    	<!-- Cambiamos TÍTULO de card -->
+					      <span class="card-title activator grey-text text-darken-4">Artículo 2<i class="material-icons right">more_vert</i></span>
+					      <!-- Cambiamos LINK por PRECIO -->
+					      <p><a href="#">$500.00 - COMPRAR</a></p>
+					    </div>
+					    <div class="card-reveal">
+					    	<!-- Ponemos DESCRIPCIÓN -->
+					      <span class="card-title grey-text text-darken-4">Descripción<i class="material-icons right">close</i></span>
+					      <!-- Ponemos un LOREM20 -->
+					      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe beatae officia minus. Ea mollitia ipsa, perspiciatis ut alias dolore ullam.</p>
+					    </div>
+					  </div>
+					<!-- Termina CARD -->
+				</div>
+
+				<div class="col s12 m6 l4">
+					<!-- Inicia CARD (ponemos clase: HOVERABLE) -->
+					<div class="card hoverable">
+					    <div class="card-image waves-effect waves-block waves-light">
+					    	<!-- Cambiamos IMÁGENES -->
+					      <img class="activator" src="img/zapatos/mujer/mujer3.jpg">
+					    </div>
+					    <div class="card-content">
+					    	<!-- Cambiamos TÍTULO de card -->
+					      <span class="card-title activator grey-text text-darken-4">Artículo 3<i class="material-icons right">more_vert</i></span>
+					      <!-- Cambiamos LINK por PRECIO -->
+					      <p><a href="#">$500.00 - COMPRAR</a></p>
+					    </div>
+					    <div class="card-reveal">
+					    	<!-- Ponemos DESCRIPCIÓN -->
+					      <span class="card-title grey-text text-darken-4">Descripción<i class="material-icons right">close</i></span>
+					      <!-- Ponemos un LOREM20 -->
+					      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe beatae officia minus. Ea mollitia ipsa, perspiciatis ut alias dolore ullam.</p>
+					    </div>
+					  </div>
+					<!-- Termina CARD -->
+				</div>
+
+				<div class="col s12 m6 l4">
+					<!-- Inicia CARD (ponemos clase: HOVERABLE) -->
+					<div class="card hoverable">
+					    <div class="card-image waves-effect waves-block waves-light">
+					    	<!-- Cambiamos IMÁGENES -->
+					      <img class="activator" src="img/zapatos/mujer/mujer4.jpg">
+					    </div>
+					    <div class="card-content">
+					    	<!-- Cambiamos TÍTULO de card -->
+					      <span class="card-title activator grey-text text-darken-4">Artículo 4<i class="material-icons right">more_vert</i></span>
+					      <!-- Cambiamos LINK por PRECIO -->
+					      <p><a href="#">$500.00 - COMPRAR</a></p>
+					    </div>
+					    <div class="card-reveal">
+					    	<!-- Ponemos DESCRIPCIÓN -->
+					      <span class="card-title grey-text text-darken-4">Descripción<i class="material-icons right">close</i></span>
+					      <!-- Ponemos un LOREM20 -->
+					      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe beatae officia minus. Ea mollitia ipsa, perspiciatis ut alias dolore ullam.</p>
+					    </div>
+					  </div>
+					<!-- Termina CARD -->
+				</div>
+
+				<div class="col s12 m6 l4">
+					<!-- Inicia CARD (ponemos clase: HOVERABLE) -->
+					<div class="card hoverable">
+					    <div class="card-image waves-effect waves-block waves-light">
+					    	<!-- Cambiamos IMÁGENES -->
+					      <img class="activator" src="img/zapatos/mujer/mujer5.jpg">
+					    </div>
+					    <div class="card-content">
+					    	<!-- Cambiamos TÍTULO de card -->
+					      <span class="card-title activator grey-text text-darken-4">Artículo 5<i class="material-icons right">more_vert</i></span>
+					      <!-- Cambiamos LINK por PRECIO -->
+					      <p><a href="#">$500.00 - COMPRAR</a></p>
+					    </div>
+					    <div class="card-reveal">
+					    	<!-- Ponemos DESCRIPCIÓN -->
+					      <span class="card-title grey-text text-darken-4">Descripción<i class="material-icons right">close</i></span>
+					      <!-- Ponemos un LOREM20 -->
+					      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe beatae officia minus. Ea mollitia ipsa, perspiciatis ut alias dolore ullam.</p>
+					    </div>
+					  </div>
+					<!-- Termina CARD -->
+				</div>
+
+				<div class="col s12 m6 l4">
+					<!-- Inicia CARD (ponemos clase: HOVERABLE) -->
+					<div class="card hoverable">
+					    <div class="card-image waves-effect waves-block waves-light">
+					    	<!-- Cambiamos IMÁGENES -->
+					      <img class="activator" src="img/zapatos/mujer/mujer6.jpg">
+					    </div>
+					    <div class="card-content">
+					    	<!-- Cambiamos TÍTULO de card -->
+					      <span class="card-title activator grey-text text-darken-4">Artículo 6<i class="material-icons right">more_vert</i></span>
+					      <!-- Cambiamos LINK por PRECIO -->
+					      <p><a href="#">$500.00 - COMPRAR</a></p>
+					    </div>
+					    <div class="card-reveal">
+					    	<!-- Ponemos DESCRIPCIÓN -->
+					      <span class="card-title grey-text text-darken-4">Descripción<i class="material-icons right">close</i></span>
+					      <!-- Ponemos un LOREM20 -->
+					      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe beatae officia minus. Ea mollitia ipsa, perspiciatis ut alias dolore ullam.</p>
+					    </div>
+					  </div>
+					<!-- Termina CARD -->
+				</div>
+
+			</div>
+
+		</div>
+
+	</main>
+
+	<!-- Inicia el footer -->
+	<!-- Cambiamos color de footer: blue-grey darken-2 -->
+	<footer class="page-footer blue-grey darken-2">
+		<div class="container">
+			<!-- Agregamos redes sociales -->
+			<div class="row">
+				<div class="col s12">
+					<center><p>SÍGUENOS EN NUESTRAS REDES SOCIALES</p></center>
+				</div>
+				<!-- Ponemos imagenes centradas con link y target-->
+				<div class="col s12">
+					<center>
+						<a href="http://facebook.com" target="_blank"><img src="img/icons8-facebook-circled-48.png" alt="Facebook"></a>
+						<a href="http://twitter.com" target="_blank"><img src="img/icons8-twitter-48.png" alt="Twitter"></a>
+						<a href="http://linkedin.com" target="_blank"><img src="img/icons8-linkedin-circled-48.png" alt="Linkedin"></a>
+					</center>								
+				</div>
+			</div>
+			<!-- Agregamos medios de contacto --> <!-- Agrego id:"contactos" solo para posicionamiento del botón flotante -->
+			<div class="row" id="contactos">
+				<!-- Teléfono (pongo clase blue-text al icono) ... Ponemos etiqueta <a> con href especial-->
+				<div class="col l8 s12">
+					<h5 class="white-text">Contáctanos</h5>
+					<p class="grey-text text-lighten-4">Te invitamos a llamar a nuestra línea de atención a clientes al teléfono</p>
+					<i class="material-icons blue-text">phone</i><a class="contacto" href="tel:01(800) 12345678"> 01 (800) - 12 - 34 - 56 - 78</a>
+				</div>
+				<!-- Correo (pongo clase blue-text al icono) ... Ponemos etiqueta <a> con href especial-->
+				<div class="col l4 s12">
+					<br><br>
+					<p>O bien, envíanos un correo electrónico</p>
+					<i class="material-icons blue-text">email</i> <a href="mailto:info@riverbed.com.mx" class="contacto">info@riverbed.com.mx</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				<!-- Insertamos LOGO en el FOOTER -->
+				<center>© Copyright <img src="img/footer_logo.png" alt="logo" height="13"> 2019 | Todos los derechos reservados.</center>
+			</div>
+		</div>
+	</footer>
+	<!-- Termina el footer -->
+	
+</body>
+
+<!-- JQuery debe ir a PRINCIPIO-->
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script> 
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
+</html>

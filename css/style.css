@@ -1,0 +1,232 @@
+/*Inicia Sticky Footer*/
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+/*Termina Sticky Footer*/
+
+/*Inicia navbar*/
+nav, ul.hide-on-med-and-down  li > a {
+	height: 80px;
+}
+
+ul.hide-on-med-and-down  li > a {
+	padding-top: 7px;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+ul#mobile-demo li > a {
+	color: orange;
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+ul#dropdown1 {
+	top: 80px !important;
+	width: auto !important; /*Es para que el dropdown de la NAVBAR grande se ajuste al texto*/
+}
+
+.logo_img {
+	height: 75px;
+	margin-left: 25%;
+}
+/*Termina navbar*/
+
+.bevan {
+	font-family: 'Bevan', sans-serif;
+}
+
+/*Inicia footer*/
+.contacto {
+	vertical-align: top;
+	color: white;
+}
+/*Termina footer*/
+
+/*Inician sombras de slider*/
+.promociones {
+	text-shadow: 0 1px 0 gray, 
+	       	     0 2px 0 gray,
+	       	     0 3px 0 gray,
+	       	     0 4px 0 gray,
+	       	     0 5px 0 lightgray,
+	       	     0 6px 1px rgba(0,0,0,.1),
+	       	     0 0 5px rgba(0,0,0,.1),
+	       	     0 1px 3px rgba(0,0,0,.3),
+	       	     0 3px 5px rgba(0,0,0,.2),
+	       	     0 5px 10px rgba(0,0,0,.25),
+	       	     0 10px 10px rgba(0,0,0,.2),
+	       	     0 20px 20px rgba(0,0,0,.15);
+	color: white;
+	font-weight: bold;
+}
+
+#ropa {
+	text-shadow: 0 1px 0 white, 
+	       	     0 2px 0 white,
+	       	     0 3px 0 white,
+	       	     0 4px 0 white,
+	       	     0 5px 0 white,
+	       	     0 6px 1px rgba(0,0,0,.1),
+	       	     0 0 5px rgba(0,0,0,.1),
+	       	     0 1px 3px rgba(0,0,0,.3),
+	       	     0 3px 5px rgba(0,0,0,.2),
+	       	     0 5px 10px rgba(0,0,0,.25),
+	       	     0 10px 10px rgba(0,0,0,.2),
+	       	     0 20px 20px rgba(0,0,0,.15);
+	color: #F50057;
+	font-weight: bold;
+}
+
+span#gran { /*Hacemos más grande la palabra "GRAN" arriba de barata*/
+	font-size: 65px !important;
+}
+
+#ropa_info { /*Recuadro con bordes redondos de "invierno" bajo el texto de Gran Barata*/
+	display: inline-block;
+	width: 205px;
+	height: 30px;
+	background-color: #27337B;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+	border-radius: 7px;
+	margin-top: -10px;
+}
+
+.electronica {
+	text-shadow: 0 1px 0 orange, 
+	       	     0 2px 0 orange,
+	       	     0 3px 0 orange,
+	       	     0 4px 0 orange,
+	       	     0 5px 0 orange,
+	       	     0 6px 1px rgba(255,150,0,.1),
+	       	     0 0 5px rgba(255,150,0,.1),
+	       	     0 1px 3px rgba(255,150,0,.3),
+	       	     0 3px 5px rgba(255,150,0,.2),
+	       	     0 5px 10px rgba(255,150,0,.25),
+	       	     0 10px 10px rgba(255,150,0,.2),
+	       	     0 20px 20px rgba(255,150,0,.15);
+	color: yellow;
+	font-weight: bold;
+}
+/*Terminan sombras de slider*/
+
+#descuento_ejercicio { /*Recuadro con borde negro al medio de la pagina (arriba del carousel)*/
+	width: 500px;
+	height: 55px;
+	border: 1px solid black;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	margin: 40px auto;
+	cursor: context-menu; /*Para que cambie la figura del mouse: cell, grab, move, not-allowed, wait*/
+}
+
+#descuento_ejercicio:hover { /*Para que se ponga negro el fondo del rectangulo y el texto blanco al pasar el cursor*/
+	background-color: black;
+	color: white;
+}
+
+.carousel { /*Modificamos el alto del carousel en general para que no se encime con el slider*/
+	height: 210px;
+}
+
+a.carousel-item > img { /*Cambiamos el tamaño de las imagenes del carousel para que se vean más grandes*/
+	width: 250px !important;
+}
+
+/*Inicia mosaico de index*/
+.titulo_mosaico {
+	text-align: center;
+	margin-top: 50px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.mosaico {
+	padding: 0 !important; /*Para que se pegue al borde de la pantalla y no deje espacios entre las imagenes*/
+	height: 400px !important; /*Es el alto del div col que contiene la imagen*/
+}
+
+.mosaico_img {
+	width: 100%; /*Es el 100% de nuestro .col*/
+	height: 400px;
+	margin: 0;
+	padding: 0;
+	transition: 0.4s; /*Para que no se vea el efecto de golpe al poner o quitar el cursor*/
+}
+
+.mosaico_img:hover { /*Efecto de reducción a la imagen del mosaico al pasar el cursor sobre ella*/
+	width: 96%;
+	height: 386px;
+	margin-left: 2%;
+	margin-top: 7px;
+	/*Calculamos la mitad de lo que se reduce y lo aplicamos para que se centre al hacer el hover*/
+}
+/*Termina mosaico de index*/
+
+#envio { /*Aplicamos estilo para centrar y poner bordes a la imagen de envío gratis*/
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	padding: 50px 0;
+}
+
+#flotante { /*Ponemos transparencia al boton flotante de la esquina inferior derecha*/
+	opacity: 0.7;
+}
+
+/*-------------PRODUCTOS-------------*/
+div.card-reveal > p { /*Justificamos el texto de descripción de las card's para que no se vea feo*/
+	text-align: justify;
+}
+
+
+/*Media Queries para pantallas pequeñas (celulares)*/
+@media screen and (min-width: 0px) and (max-width: 522px) {
+	.logo_img { /*Modificamos el tamaño de la imagen para que se vea más chica y le quitamos el margin para que se centre sola*/
+		height: 75px;
+		margin-left: 0;
+	}
+
+
+	ul.sidenav li > a {
+		font-size: 15px !important;
+	}
+
+	ul#dropdown2 {
+		top: 180px !important;
+		width: 93% !important;
+	}
+
+	ul#dropdown2 li > a {
+		font-size: 10px !important;
+		margin-left: 30px;
+		color: #FF6B00;
+	}
+
+	.promociones {
+		font-size: 30px;
+	}
+
+	.electronica {
+		font-size: 35px;
+	}
+
+	#descuento_ejercicio {
+		width: 290px;
+		height: 35px;
+		font-size: 10px;
+	}
+
+}
